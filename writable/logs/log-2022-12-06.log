@@ -1,0 +1,27 @@
+CRITICAL - 2022-12-06 10:11:41 --> syntax error, unexpected end of file
+in APPPATH\Views\admin\dashboard.php on line 178.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin_Dashboard_Controller.php(18): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Dashboard_Controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Dashboard_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 10:11:42 --> syntax error, unexpected end of file
+in APPPATH\Views\admin\dashboard.php on line 178.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin_Dashboard_Controller.php(18): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Dashboard_Controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Dashboard_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 10:11:43 --> syntax error, unexpected end of file
+in APPPATH\Views\admin\dashboard.php on line 178.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin_Dashboard_Controller.php(18): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Dashboard_Controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Dashboard_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,14 @@
+CRITICAL - 2022-11-19 12:31:31 --> CodeIgniter\Security\Security::sanitizeFilename(): Argument #1 ($str) must be of type string, null given, called in C:\xampp\htdocs\Voting-System\app\Controllers\Votes_Controller.php on line 49
+in SYSTEMPATH\Security\Security.php on line 468.
+ 1 APPPATH\Controllers\Votes_Controller.php(49): CodeIgniter\Security\Security->sanitizeFilename(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Votes_Controller->addVote()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 12:31:45 --> CodeIgniter\Security\Security::sanitizeFilename(): Argument #1 ($str) must be of type string, null given, called in C:\xampp\htdocs\Voting-System\app\Controllers\Votes_Controller.php on line 49
+in SYSTEMPATH\Security\Security.php on line 468.
+ 1 APPPATH\Controllers\Votes_Controller.php(49): CodeIgniter\Security\Security->sanitizeFilename(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Votes_Controller->addVote()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

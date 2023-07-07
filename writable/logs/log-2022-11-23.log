@@ -1,0 +1,1229 @@
+ERROR - 2022-11-23 02:09:31 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Voting-System\app\Controllers\Groups_Controller.php(79): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('3')
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+#10 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-23 02:09:31 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'3\', \'2\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'3\', \'2\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'3\', \'2\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (:user_id:, :group_id:, :creator_id:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Groups_Controller.php(79): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('3')
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 02:23:33 --> Unmatched '}'
+in APPPATH\Controllers\Groups_Controller.php on line 93.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Groups_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Groups_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Groups_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Groups_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 02:24:12 --> Unmatched '}'
+in APPPATH\Controllers\Groups_Controller.php on line 93.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Groups_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Groups_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Groups_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Groups_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 02:24:29 --> Unmatched '}'
+in APPPATH\Controllers\Groups_Controller.php on line 93.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Groups_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Groups_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Groups_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Groups_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 02:26:22 --> Unmatched '}'
+in APPPATH\Controllers\Groups_Controller.php on line 93.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Groups_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Groups_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Groups_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Groups_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 02:26:52 --> Unmatched '}'
+in APPPATH\Controllers\Groups_Controller.php on line 93.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Groups_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Groups_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Groups_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Groups_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 02:27:15 --> Unmatched '}'
+in APPPATH\Controllers\Groups_Controller.php on line 93.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Groups_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Groups_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Groups_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Groups_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 02:29:24 --> Undefined variable $requestCheck
+in APPPATH\Controllers\Groups_Controller.php on line 78.
+ 1 APPPATH\Controllers\Groups_Controller.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $requestCheck', 'APPPATH\\Controllers\\Groups_Controller.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 02:40:39 --> Undefined variable $groups
+in APPPATH\Views\panel\user\requests.php on line 11.
+ 1 APPPATH\Views\panel\user\requests.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $groups', 'APPPATH\\Views\\panel\\user\\requests.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\user\\requests.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('panel/user/requests', [], true)
+ 5 APPPATH\Controllers\Groups_Controller.php(60): view('panel/user/requests', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 02:49:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\panel\user\requests.php on line 12.
+ 1 APPPATH\Views\panel\user\requests.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\panel\\user\\requests.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\user\\requests.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('panel/user/requests', [], true)
+ 5 APPPATH\Controllers\Groups_Controller.php(62): view('panel/user/requests', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 03:07:19 --> Undefined array key "first_name"
+in APPPATH\Views\panel\user\requests.php on line 19.
+ 1 APPPATH\Views\panel\user\requests.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'APPPATH\\Views\\panel\\user\\requests.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\user\\requests.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('panel/user/requests', [], true)
+ 5 APPPATH\Controllers\Groups_Controller.php(63): view('panel/user/requests', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 03:07:36 --> Undefined array key "group_name"
+in APPPATH\Views\panel\user\requests.php on line 22.
+ 1 APPPATH\Views\panel\user\requests.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_name"', 'APPPATH\\Views\\panel\\user\\requests.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\user\\requests.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('panel/user/requests', [], true)
+ 5 APPPATH\Controllers\Groups_Controller.php(63): view('panel/user/requests', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 03:08:17 --> syntax error, unexpected end of file
+in APPPATH\Views\panel\user\requests.php on line 98.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('panel/user/requests', [], true)
+ 3 APPPATH\Controllers\Groups_Controller.php(63): view('panel/user/requests', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 03:11:58 --> Undefined array key "first_name"
+in APPPATH\Views\panel\user\requests.php on line 19.
+ 1 APPPATH\Views\panel\user\requests.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'APPPATH\\Views\\panel\\user\\requests.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\user\\requests.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('panel/user/requests', [], true)
+ 5 APPPATH\Controllers\Groups_Controller.php(65): view('panel/user/requests', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 03:12:19 --> Undefined array key "first_name"
+in APPPATH\Views\panel\user\requests.php on line 19.
+ 1 APPPATH\Views\panel\user\requests.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'APPPATH\\Views\\panel\\user\\requests.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\user\\requests.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('panel/user/requests', [], true)
+ 5 APPPATH\Controllers\Groups_Controller.php(65): view('panel/user/requests', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 03:15:50 --> Undefined array key "group_name"
+in APPPATH\Views\panel\user\requests.php on line 22.
+ 1 APPPATH\Views\panel\user\requests.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_name"', 'APPPATH\\Views\\panel\\user\\requests.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\user\\requests.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('panel/user/requests', [], true)
+ 5 APPPATH\Controllers\Groups_Controller.php(68): view('panel/user/requests', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 04:29:30 --> Call to a member function set() on array
+in APPPATH\Controllers\Groups_Controller.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 04:29:32 --> Call to a member function set() on array
+in APPPATH\Controllers\Groups_Controller.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('2')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 04:29:41 --> Call to a member function set() on array
+in APPPATH\Controllers\Groups_Controller.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 04:30:29 --> Call to a member function set() on array
+in APPPATH\Controllers\Groups_Controller.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('2')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 04:31:53 --> Call to a member function set() on array
+in APPPATH\Controllers\Groups_Controller.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('2')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 04:34:27 --> Call to a member function set() on array
+in APPPATH\Controllers\Groups_Controller.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('2')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 04:35:33 --> Call to a member function set() on array
+in APPPATH\Controllers\Groups_Controller.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('2')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 04:37:16 --> Call to a member function set() on array
+in APPPATH\Controllers\Groups_Controller.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('2')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 04:37:24 --> Call to a member function set() on array
+in APPPATH\Controllers\Groups_Controller.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 04:38:27 --> Call to a member function set() on array
+in APPPATH\Controllers\Groups_Controller.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('2')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 05:05:26 --> Undefined array key "has_joined"
+in APPPATH\Controllers\Groups_Controller.php on line 98.
+ 1 APPPATH\Controllers\Groups_Controller.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "has_joined"', 'APPPATH\\Controllers\\Groups_Controller.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 05:05:40 --> Call to a member function set() on array
+in APPPATH\Controllers\Groups_Controller.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('2')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 05:06:33 --> Call to a member function set() on array
+in APPPATH\Controllers\Groups_Controller.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('2')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 05:06:36 --> Call to a member function set() on array
+in APPPATH\Controllers\Groups_Controller.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('2')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 05:14:15 --> Undefined array key "has_joined"
+in APPPATH\Controllers\Groups_Controller.php on line 98.
+ 1 APPPATH\Controllers\Groups_Controller.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "has_joined"', 'APPPATH\\Controllers\\Groups_Controller.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 05:14:32 --> Cannot use object of type App\Models\Groups_Model as array
+in APPPATH\Controllers\Groups_Controller.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('2')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 05:16:00 --> Call to a member function set() on array
+in APPPATH\Controllers\Groups_Controller.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('2')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 05:38:19 --> Cannot use object of type App\Models\Groups_Model as array
+in APPPATH\Controllers\Groups_Controller.php on line 104.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('3')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 05:50:59 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 867.
+ 1 SYSTEMPATH\BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\Groups_Controller.php(102): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->setRequest('3')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 06:19:58 --> Undefined array key "has_joined"
+in APPPATH\Views\index.php on line 32.
+ 1 APPPATH\Views\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "has_joined"', 'APPPATH\\Views\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 06:51:12 --> Undefined variable $mysqli
+in APPPATH\Views\index.php on line 11.
+ 1 APPPATH\Views\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mysqli', 'APPPATH\\Views\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 06:51:59 --> Undefined variable $mysqli
+in APPPATH\Views\index.php on line 11.
+ 1 APPPATH\Views\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mysqli', 'APPPATH\\Views\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 06:52:00 --> Undefined variable $mysqli
+in APPPATH\Views\index.php on line 11.
+ 1 APPPATH\Views\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mysqli', 'APPPATH\\Views\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 06:52:30 --> Undefined variable $mysqli
+in APPPATH\Views\index.php on line 30.
+ 1 APPPATH\Views\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mysqli', 'APPPATH\\Views\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 07:26:33 --> syntax error, unexpected token ")"
+in APPPATH\Views\index.php on line 33.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(32): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 07:33:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`' at line 3 in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Voting-System\app\Controllers\Home.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-23 07:33:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`
+OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`
+OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`
+OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`
+OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 10:19:29 --> Undefined variable $r
+in APPPATH\Views\index.php on line 30.
+ 1 APPPATH\Views\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $r', 'APPPATH\\Views\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 10:19:34 --> Undefined variable $r
+in APPPATH\Views\index.php on line 30.
+ 1 APPPATH\Views\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $r', 'APPPATH\\Views\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 10:19:35 --> Undefined variable $r
+in APPPATH\Views\index.php on line 30.
+ 1 APPPATH\Views\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $r', 'APPPATH\\Views\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 10:19:40 --> Undefined variable $r
+in APPPATH\Views\index.php on line 30.
+ 1 APPPATH\Views\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $r', 'APPPATH\\Views\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 10:19:41 --> Undefined variable $r
+in APPPATH\Views\index.php on line 30.
+ 1 APPPATH\Views\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $r', 'APPPATH\\Views\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 11:04:23 --> CodeIgniter\Security\Security::sanitizeFilename(): Argument #1 ($str) must be of type string, null given, called in C:\xampp\htdocs\Voting-System\app\Controllers\Votes_Controller.php on line 124
+in SYSTEMPATH\Security\Security.php on line 468.
+ 1 APPPATH\Controllers\Votes_Controller.php(124): CodeIgniter\Security\Security->sanitizeFilename(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Votes_Controller->addVote()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 11:06:37 --> The framework needs the following extension(s) installed and loaded: GD.
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(337): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(330): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Votes_Controller.php(131): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Votes_Controller->addVote()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 11:44:05 --> mysqli_sql_exception: Unknown column 'votes.cat_id' in 'on clause' in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Voting-System\app\Controllers\Home.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-23 11:44:05 --> Unknown column 'votes.cat_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+JOIN `sub_category` ON `sub_category`.`cat_id`=`votes`.`cat_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+JOIN `sub_category` ON `sub_category`.`cat_id`=`votes`.`cat_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+JOIN `sub_category` ON `sub_category`.`cat_id`=`votes`.`cat_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+JOIN `sub_category` ON `sub_category`.`cat_id`=`votes`.`cat_id`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(33): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 12:51:23 --> Undefined array key "f_name"
+in APPPATH\Views\panel\user\private_voting.php on line 13.
+ 1 APPPATH\Views\panel\user\private_voting.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "f_name"', 'APPPATH\\Views\\panel\\user\\private_voting.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\user\\private_voting.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('panel\\user\\private_voting', [], true)
+ 5 APPPATH\Controllers\Groups_Controller.php(135): view('panel\\user\\private_voting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->private_index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 13:13:15 --> Undefined variable $myvotes
+in APPPATH\Views\panel\user\Votes.php on line 3.
+ 1 APPPATH\Views\panel\user\Votes.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myvotes', 'APPPATH\\Views\\panel\\user\\Votes.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\user\\Votes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('panel/user/votes', [], true)
+ 5 APPPATH\Controllers\Votes_Controller.php(21): view('panel/user/votes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Votes_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 13:13:19 --> Undefined variable $myvotes
+in APPPATH\Views\panel\user\Votes.php on line 3.
+ 1 APPPATH\Views\panel\user\Votes.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myvotes', 'APPPATH\\Views\\panel\\user\\Votes.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\user\\Votes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('panel/user/votes', [], true)
+ 5 APPPATH\Controllers\Votes_Controller.php(21): view('panel/user/votes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Votes_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 13:13:58 --> Undefined variable $myvotes
+in APPPATH\Views\panel\user\Votes.php on line 3.
+ 1 APPPATH\Views\panel\user\Votes.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myvotes', 'APPPATH\\Views\\panel\\user\\Votes.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\user\\Votes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('panel/user/votes', [], true)
+ 5 APPPATH\Controllers\Votes_Controller.php(21): view('panel/user/votes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Votes_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 13:20:46 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Voting-System\app\Controllers\Votes_Controller.php(20): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Votes_Controller->index()
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-23 13:20:46 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `category`
+WHERE `user_id` = \'2\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `category`
+WHERE `user_id` = \'2\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `category`
+WHERE `user_id` = \'2\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+WHERE `user_id` = :user_id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Votes_Controller.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Votes_Controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 13:21:02 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Voting-System\app\Controllers\Votes_Controller.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Votes_Controller->index()
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-23 13:21:02 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `category`
+WHERE `user_id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `category`
+WHERE `user_id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `category`
+WHERE `user_id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+WHERE `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Votes_Controller.php(20): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Votes_Controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 13:22:26 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Voting-System\app\Controllers\Votes_Controller.php(18): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Votes_Controller->index()
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-23 13:22:26 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `category`
+WHERE `user_id` = \'2\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `category`
+WHERE `user_id` = \'2\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `category`
+WHERE `user_id` = \'2\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+WHERE `user_id` = :user_id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Votes_Controller.php(18): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Votes_Controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 13:26:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+J...' at line 1 in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, *\nFRO...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, *\nFRO...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, *\nFRO...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, *\nFRO...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Voting-System\app\Controllers\Votes_Controller.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Votes_Controller->index()
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-23 13:26:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+J...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, *
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+JOIN `sub_category` ON `sub_category`.`cat_id`=`votes`.`category_id`
+WHERE `user_id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, *
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+JOIN `sub_category` ON `sub_category`.`cat_id`=`votes`.`category_id`
+WHERE `user_id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, *
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+JOIN `sub_category` ON `sub_category`.`cat_id`=`votes`.`category_id`
+WHERE `user_id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, *
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+JOIN `sub_category` ON `sub_category`.`cat_id`=`votes`.`category_id`
+WHERE `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Votes_Controller.php(20): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Votes_Controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 13:27:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+J...' at line 1 in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, *\nFRO...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, *\nFRO...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, *\nFRO...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, *\nFRO...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Voting-System\app\Controllers\Votes_Controller.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Votes_Controller->index()
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-23 13:27:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+J...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, *
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+JOIN `sub_category` ON `sub_category`.`cat_id`=`votes`.`category_id`
+WHERE `user_id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, *
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+JOIN `sub_category` ON `sub_category`.`cat_id`=`votes`.`category_id`
+WHERE `user_id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, *
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+JOIN `sub_category` ON `sub_category`.`cat_id`=`votes`.`category_id`
+WHERE `user_id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, *
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+JOIN `sub_category` ON `sub_category`.`cat_id`=`votes`.`category_id`
+WHERE `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Votes_Controller.php(20): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Votes_Controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 13:27:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+J...' at line 1 in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, *\nFRO...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, *\nFRO...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, *\nFRO...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, *\nFRO...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Voting-System\app\Controllers\Votes_Controller.php(20): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Votes_Controller->index()
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-23 13:27:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+J...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, *
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+JOIN `sub_category` ON `sub_category`.`cat_id`=`votes`.`category_id`
+WHERE `user_id` = \'2\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, *
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+JOIN `sub_category` ON `sub_category`.`cat_id`=`votes`.`category_id`
+WHERE `user_id` = \'2\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, *
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+JOIN `sub_category` ON `sub_category`.`cat_id`=`votes`.`category_id`
+WHERE `user_id` = \'2\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, *
+FROM `category`
+JOIN `votes` ON `votes`.`category_id`=`category`.`cat_id`
+JOIN `sub_category` ON `sub_category`.`cat_id`=`votes`.`category_id`
+WHERE `user_id` = :user_id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Votes_Controller.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Votes_Controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Votes_Controller))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 14:14:35 --> mysqli_sql_exception: Column 'user_id' in where clause is ambiguous in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Voting-System\app\Controllers\Groups_Controller.php(64): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-23 14:14:35 --> Column 'user_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `requests`
+JOIN `groups` ON `groups`.`group_id`=`requests`.`group_id`
+JOIN `user` ON `user`.`user_id`=`requests`.`user_id`
+WHERE `user_id` = \'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `requests`
+JOIN `groups` ON `groups`.`group_id`=`requests`.`group_id`
+JOIN `user` ON `user`.`user_id`=`requests`.`user_id`
+WHERE `user_id` = \'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `requests`
+JOIN `groups` ON `groups`.`group_id`=`requests`.`group_id`
+JOIN `user` ON `user`.`user_id`=`requests`.`user_id`
+WHERE `user_id` = \'\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `requests`
+JOIN `groups` ON `groups`.`group_id`=`requests`.`group_id`
+JOIN `user` ON `user`.`user_id`=`requests`.`user_id`
+WHERE `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Groups_Controller.php(64): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 14:30:44 --> Undefined array key "first_name"
+in APPPATH\Views\panel\user\requests.php on line 22.
+ 1 APPPATH\Views\panel\user\requests.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'APPPATH\\Views\\panel\\user\\requests.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\user\\requests.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('panel/user/requests', [], true)
+ 5 APPPATH\Controllers\Groups_Controller.php(67): view('panel/user/requests', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 14:30:45 --> Undefined array key "first_name"
+in APPPATH\Views\panel\user\requests.php on line 22.
+ 1 APPPATH\Views\panel\user\requests.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'APPPATH\\Views\\panel\\user\\requests.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\user\\requests.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('panel/user/requests', [], true)
+ 5 APPPATH\Controllers\Groups_Controller.php(67): view('panel/user/requests', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 14:32:42 --> Undefined array key "first_name"
+in APPPATH\Views\panel\user\requests.php on line 22.
+ 1 APPPATH\Views\panel\user\requests.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'APPPATH\\Views\\panel\\user\\requests.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\user\\requests.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('panel/user/requests', [], true)
+ 5 APPPATH\Controllers\Groups_Controller.php(69): view('panel/user/requests', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:12:04 --> Call to a member function where() on array
+in APPPATH\Controllers\Groups_Controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:19:01 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 89.
+ 1 APPPATH\Controllers\Groups_Controller.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:19:29 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 89.
+ 1 APPPATH\Controllers\Groups_Controller.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:19:45 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 89.
+ 1 APPPATH\Controllers\Groups_Controller.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:20:14 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 89.
+ 1 APPPATH\Controllers\Groups_Controller.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:21:36 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 80.
+ 1 APPPATH\Controllers\Groups_Controller.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:22:06 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 80.
+ 1 APPPATH\Controllers\Groups_Controller.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:22:30 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 80.
+ 1 APPPATH\Controllers\Groups_Controller.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:22:56 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 80.
+ 1 APPPATH\Controllers\Groups_Controller.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:26:35 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 80.
+ 1 APPPATH\Controllers\Groups_Controller.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:27:24 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 80.
+ 1 APPPATH\Controllers\Groups_Controller.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:33:56 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 79.
+ 1 APPPATH\Controllers\Groups_Controller.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:34:04 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 79.
+ 1 APPPATH\Controllers\Groups_Controller.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:34:14 --> Undefined variable $requestCheck
+in APPPATH\Controllers\Groups_Controller.php on line 81.
+ 1 APPPATH\Controllers\Groups_Controller.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $requestCheck', 'APPPATH\\Controllers\\Groups_Controller.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:39:29 --> Undefined array key "group_id"
+in APPPATH\Controllers\Groups_Controller.php on line 79.
+ 1 APPPATH\Controllers\Groups_Controller.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:39:49 --> Undefined array key "group_id"
+in APPPATH\Controllers\Groups_Controller.php on line 79.
+ 1 APPPATH\Controllers\Groups_Controller.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:43:31 --> Cannot use object of type App\Models\User_Model as array
+in APPPATH\Controllers\Groups_Controller.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:44:48 --> Cannot use object of type App\Models\User_Model as array
+in APPPATH\Controllers\Groups_Controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:45:39 --> Cannot use object of type App\Models\Groups_Model as array
+in APPPATH\Controllers\Groups_Controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:47:53 --> Cannot use object of type App\Models\Groups_Model as array
+in APPPATH\Controllers\Groups_Controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('5')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 15:58:35 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 81.
+ 1 APPPATH\Controllers\Groups_Controller.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:01:29 --> Undefined variable $userCheck
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCheck', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:01:33 --> Undefined variable $userCheck
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCheck', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:02:11 --> Undefined variable $userCheck
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCheck', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:02:15 --> Undefined variable $userCheck
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCheck', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:02:29 --> Cannot use [] for reading
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:04:21 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 82.
+ 1 APPPATH\Controllers\Groups_Controller.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:04:54 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 82.
+ 1 APPPATH\Controllers\Groups_Controller.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:04:57 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 82.
+ 1 APPPATH\Controllers\Groups_Controller.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:07:14 --> Array to string conversion
+in APPPATH\Controllers\Groups_Controller.php on line 82.
+ 1 APPPATH\Controllers\Groups_Controller.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Groups_Controller.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:07:16 --> Undefined array key "requestCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "requestCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:08:23 --> Undefined array key "requestCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "requestCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:08:55 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:08:58 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:09:00 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:09:02 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('4')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:09:04 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('5')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:10:03 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 92.
+ 1 APPPATH\Controllers\Groups_Controller.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:10:07 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 92.
+ 1 APPPATH\Controllers\Groups_Controller.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:12:15 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 92.
+ 1 APPPATH\Controllers\Groups_Controller.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:13:19 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 91.
+ 1 APPPATH\Controllers\Groups_Controller.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:13:23 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 91.
+ 1 APPPATH\Controllers\Groups_Controller.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:15:14 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 93.
+ 1 APPPATH\Controllers\Groups_Controller.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:15:45 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 88.
+ 1 APPPATH\Controllers\Groups_Controller.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:22:15 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 88.
+ 1 APPPATH\Controllers\Groups_Controller.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:23:21 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 88.
+ 1 APPPATH\Controllers\Groups_Controller.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:30:16 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 88.
+ 1 APPPATH\Controllers\Groups_Controller.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:31:00 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 86.
+ 1 APPPATH\Controllers\Groups_Controller.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:31:23 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 86.
+ 1 APPPATH\Controllers\Groups_Controller.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

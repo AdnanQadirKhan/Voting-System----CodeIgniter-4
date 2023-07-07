@@ -1,0 +1,292 @@
+CRITICAL - 2022-12-13 06:10:58 --> Undefined array key 0
+in APPPATH\Controllers\Groups_Controller.php on line 110.
+ 1 APPPATH\Controllers\Groups_Controller.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Groups_Controller.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('12')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 06:26:34 --> Undefined array key "user_email"
+in APPPATH\Controllers\Groups_Controller.php on line 118.
+ 1 APPPATH\Controllers\Groups_Controller.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_email"', 'APPPATH\\Controllers\\Groups_Controller.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('13')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 06:27:40 --> Undefined array key "user_email"
+in APPPATH\Controllers\Groups_Controller.php on line 118.
+ 1 APPPATH\Controllers\Groups_Controller.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_email"', 'APPPATH\\Controllers\\Groups_Controller.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('13')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 07:27:28 --> Undefined array key "group_id"
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_id"', 'APPPATH\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 07:27:28 --> Undefined array key "group_id"
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_id"', 'APPPATH\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 07:27:29 --> Undefined array key "group_id"
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_id"', 'APPPATH\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 07:27:43 --> Undefined array key "group_id"
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_id"', 'APPPATH\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 07:27:44 --> Undefined array key "group_id"
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_id"', 'APPPATH\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 07:27:44 --> Undefined array key "group_id"
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_id"', 'APPPATH\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 07:27:53 --> Undefined array key "group_id"
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_id"', 'APPPATH\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 07:27:54 --> Undefined array key "group_id"
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_id"', 'APPPATH\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 07:27:54 --> Undefined array key "group_id"
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_id"', 'APPPATH\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 07:41:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-12-13 07:41:25 --> 220 DX1P273CA0013.outlook.office365.com Microsoft ESMTP MAIL Service ready at Tue, 13 Dec 2022 13:41:21 +0000
+
+hello: 250-DX1P273CA0013.outlook.office365.com Hello [115.186.159.149]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-STARTTLS
+250-8BITMIME
+250-BINARYMIME
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 SMTP server ready
+
+hello: 250-DX1P273CA0013.outlook.office365.com Hello [115.186.159.149]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-AUTH LOGIN XOAUTH2
+250-8BITMIME
+250-BINARYMIME
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 Sender OK
+
+to: 250 2.1.5 Recipient OK
+
+data: 354 Start mail input; end with <CRLF>.<CRLF>
+
+554 5.2.252 SendAsDenied; adnanqadirkhan@outlook.com not allowed to send as system@dailyvoting.com; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Cannot submit message. 0.35250:80030400, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:18020000, 1.36674:0E000000, 1.61250:00000000, 1.45378:1D020000, 1.44866:58010000, 16.55847:EA030000, 17.43559:000000002402000000000000000000
+quit: 0000000000, 20.52176:140FF89613004010F1030000, 20.50032:140FF896831710100A000000, 0.53414:00000000, 0.35180:02000000, 255.23226:D41E0000, 255.27962:0A000000, 255.27962:0E000000, 255.31418:D91E0000, 0.35250:98190000, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:5C000000, 1.36674:32000000, 1.61250:00000000, 1.45378:61000000, 1.44866:01000000, 16.55847:D7000000, 17.43559:00000000D0030000000000000000000000000000, 20.52176:140FF8961300001062000000, 20.50032:140FF8968317101000000000, 0.53414:02000000, 0.35180:EC7F0000, 255.23226:F50F0000, 255.27962:0A000000, 255.27962:32000000, 255.17082:DC040000, 0.27745:140FF896, 4.21921:DC040000, 255.27962:FA000000, 255.1494:73000000, 0.38698:05000780, 1.41134:46000000, 0.37692:86000000, 0.37948:02000000, 5.33852:00000000534D545000010480, 7.36354:010000000000010986000000, 4.56248:DC040000, 7.40748:010000000000010B86000000, 7.57132:000000000000000056FF0000, 4.39640:DC040000, 1.63016:32000000, 8.45434:FE7F0300855017860000000000000000372D3633, 1.46798:04000000, 5.10786:0000000031352E32302E353838302E3031393A414D38505230394D42353239323A31346165323664372D363363622D343966652D613132612D3063373137353733616361643A3130363039323A2E4E4554204672616D65776F726B20342E382E393033322E300010A4000000, 7.51330:2CAFE6BB0FDDDA0812000000, 0.39570:12000000, 1.55954:0A000000, 0.49266:56000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:05000000, 1.56562:00000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:05000000, 1.56562:00000000, 1.64146:32000000, 1.33010:32000000, 2.54258:DC040000, 1.33010:32000000, 2.54258:DC040000, 255.1750:0A003267, 255.31418:0A000D81, 0.22753:C5000000, 255.21817:DC040000, 0.64418:0A00EA82, 4.39842:DC040000, 0.41586:40000A67, 4.60547:DC040000, 0.21966:CF000000, 4.30158:DC040000[EndDiagnosticData] [Hostname=AM8PR09MB5292.eurprd09.prod.outlook.com]
+221 2.0.0 Service closing transmission channel
+
+The following SMTP error was encountered: 0000000000, 20.52176:140FF89613004010F1030000, 20.50032:140FF896831710100A000000, 0.53414:00000000, 0.35180:02000000, 255.23226:D41E0000, 255.27962:0A000000, 255.27962:0E000000, 255.31418:D91E0000, 0.35250:98190000, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:5C000000, 1.36674:32000000, 1.61250:00000000, 1.45378:61000000, 1.44866:01000000, 16.55847:D7000000, 17.43559:00000000D0030000000000000000000000000000, 20.52176:140FF8961300001062000000, 20.50032:140FF8968317101000000000, 0.53414:02000000, 0.35180:EC7F0000, 255.23226:F50F0000, 255.27962:0A000000, 255.27962:32000000, 255.17082:DC040000, 0.27745:140FF896, 4.21921:DC040000, 255.27962:FA000000, 255.1494:73000000, 0.38698:05000780, 1.41134:46000000, 0.37692:86000000, 0.37948:02000000, 5.33852:00000000534D545000010480, 7.36354:010000000000010986000000, 4.56248:DC040000, 7.40748:010000000000010B86000000, 7.57132:000000000000000056FF0000, 4.39640:DC040000, 1.63016:32000000, 8.45434:FE7F0300855017860000000000000000372D3633, 1.46798:04000000, 5.10786:0000000031352E32302E353838302E3031393A414D38505230394D42353239323A31346165323664372D363363622D343966652D613132612D3063373137353733616361643A3130363039323A2E4E4554204672616D65776F726B20342E382E393033322E300010A4000000, 7.51330:2CAFE6BB0FDDDA0812000000, 0.39570:12000000, 1.55954:0A000000, 0.49266:56000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:05000000, 1.56562:00000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:05000000, 1.56562:00000000, 1.64146:32000000, 1.33010:32000000, 2.54258:DC040000, 1.33010:32000000, 2.54258:DC040000, 255.1750:0A003267, 255.31418:0A000D81, 0.22753:C5000000, 255.21817:DC040000, 0.64418:0A00EA82, 4.39842:DC040000, 0.41586:40000A67, 4.60547:DC040000, 0.21966:CF000000, 4.30158:DC040000[EndDiagnosticData] [Hostname=AM8PR09MB5292.eurprd09.prod.outlook.com]
+221 2.0.0 Service closing transmission channel
+
+The following SMTP error was encountered: 554 5.2.252 SendAsDenied; adnanqadirkhan@outlook.com not allowed to send as system@dailyvoting.com; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Cannot submit message. 0.35250:80030400, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:18020000, 1.36674:0E000000, 1.61250:00000000, 1.45378:1D020000, 1.44866:58010000, 16.55847:EA030000, 17.43559:000000002402000000000000000000
+CRITICAL - 2022-12-13 08:07:01 --> Undefined array key "teama_votes"
+in APPPATH\Views\results.php on line 56.
+ 1 APPPATH\Views\results.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "teama_votes"', 'APPPATH\\Views\\results.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\results.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('results', [], true)
+ 5 APPPATH\Controllers\Home.php(67): view('results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->results()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 08:07:01 --> Undefined array key "teama_votes"
+in APPPATH\Views\results.php on line 56.
+ 1 APPPATH\Views\results.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "teama_votes"', 'APPPATH\\Views\\results.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\results.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('results', [], true)
+ 5 APPPATH\Controllers\Home.php(67): view('results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->results()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 08:07:01 --> Undefined array key "teama_votes"
+in APPPATH\Views\results.php on line 56.
+ 1 APPPATH\Views\results.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "teama_votes"', 'APPPATH\\Views\\results.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\results.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('results', [], true)
+ 5 APPPATH\Controllers\Home.php(67): view('results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->results()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 08:37:16 --> Undefined array key "has_joined"
+in APPPATH\Controllers\Groups_Controller.php on line 141.
+ 1 APPPATH\Controllers\Groups_Controller.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "has_joined"', 'APPPATH\\Controllers\\Groups_Controller.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('13')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 08:37:43 --> Undefined array key "has_joined"
+in APPPATH\Controllers\Groups_Controller.php on line 141.
+ 1 APPPATH\Controllers\Groups_Controller.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "has_joined"', 'APPPATH\\Controllers\\Groups_Controller.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('12')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 08:37:52 --> Undefined array key "has_joined"
+in APPPATH\Controllers\Groups_Controller.php on line 141.
+ 1 APPPATH\Controllers\Groups_Controller.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "has_joined"', 'APPPATH\\Controllers\\Groups_Controller.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('13')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:05:09 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Groups_Controller.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('13')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:05:18 --> Undefined array key "has_joined"
+in APPPATH\Controllers\Groups_Controller.php on line 139.
+ 1 APPPATH\Controllers\Groups_Controller.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "has_joined"', 'APPPATH\\Controllers\\Groups_Controller.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('13')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:06:19 --> Undefined array key "has_joined"
+in APPPATH\Controllers\Groups_Controller.php on line 139.
+ 1 APPPATH\Controllers\Groups_Controller.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "has_joined"', 'APPPATH\\Controllers\\Groups_Controller.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('13')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:09:02 --> syntax error, unexpected token "return", expecting "," or ";"
+in APPPATH\Controllers\Groups_Controller.php on line 192.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Groups_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Groups_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Groups_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Groups_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:09:07 --> syntax error, unexpected token "return", expecting "," or ";"
+in APPPATH\Controllers\Groups_Controller.php on line 192.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Groups_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Groups_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Groups_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Groups_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:09:09 --> syntax error, unexpected token "return", expecting "," or ";"
+in APPPATH\Controllers\Groups_Controller.php on line 192.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Groups_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Groups_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Groups_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Groups_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:09:11 --> syntax error, unexpected token "return", expecting "," or ";"
+in APPPATH\Controllers\Groups_Controller.php on line 192.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Groups_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Groups_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Groups_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Groups_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:13:09 --> Call to undefined method App\Models\Groups_Model::last
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Groups_Controller.php(54): CodeIgniter\Model->__call('last', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->add_group()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:13:12 --> Call to undefined method App\Models\Groups_Model::last
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Groups_Controller.php(54): CodeIgniter\Model->__call('last', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->add_group()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:13:35 --> Call to undefined method App\Models\Groups_Model::end
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Groups_Controller.php(54): CodeIgniter\Model->__call('end', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->add_group()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

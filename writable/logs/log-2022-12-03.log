@@ -1,0 +1,1518 @@
+CRITICAL - 2022-12-03 04:40:45 --> Call to undefined method App\Models\User_Model::banned
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Admin_User_Controller.php(14): CodeIgniter\Model->__call('banned', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:40:49 --> Call to undefined method App\Models\User_Model::banned
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Admin_User_Controller.php(14): CodeIgniter\Model->__call('banned', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:41:04 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:41:04 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:41:04 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:41:04 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:41:05 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:41:06 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:41:17 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:41:17 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:41:18 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:41:18 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:41:23 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:41:23 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:43:03 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:43:03 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:43:03 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:43:03 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:43:04 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:43:04 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:43:11 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:43:11 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(17): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:45:28 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:45:29 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:45:32 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:45:32 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:45:44 --> Undefined variable $pager
+in APPPATH\Views\admin\users.php on line 150.
+ 1 APPPATH\Views\admin\users.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'APPPATH\\Views\\admin\\users.php', 150)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 5 APPPATH\Controllers\Admin_User_Controller.php(15): view('admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:45:44 --> Undefined variable $pager
+in APPPATH\Views\admin\users.php on line 150.
+ 1 APPPATH\Views\admin\users.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'APPPATH\\Views\\admin\\users.php', 150)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 5 APPPATH\Controllers\Admin_User_Controller.php(15): view('admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:45:44 --> Undefined variable $pager
+in APPPATH\Views\admin\users.php on line 150.
+ 1 APPPATH\Views\admin\users.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'APPPATH\\Views\\admin\\users.php', 150)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 5 APPPATH\Controllers\Admin_User_Controller.php(15): view('admin/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:46:56 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:46:56 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:47:26 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:47:26 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:47:27 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:47:27 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:47:27 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:47:27 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:48:11 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:48:11 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:48:15 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:48:16 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:48:19 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:48:19 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:48:26 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:48:27 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:48:27 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:48:27 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:48:32 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:48:33 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:48:59 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 04:48:59 --> Undefined variable $title
+in APPPATH\Views\admin\includes\head.php on line 9.
+ 1 APPPATH\Views\admin\includes\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\includes\\head.php', 9)
+ 2 APPPATH\Views\admin\users.php(2): include('APPPATH\\Views\\admin\\includes\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/users', [], true)
+ 6 APPPATH\Controllers\Admin_User_Controller.php(18): view('admin/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_User_Controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_User_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 07:59:09 --> Undefined array key "status"
+in APPPATH\Views\admin\category.php on line 105.
+ 1 APPPATH\Views\admin\category.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Views\\admin\\category.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/category', [], true)
+ 5 APPPATH\Controllers\Admin_Category_Controller.php(15): view('admin/category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Category_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Category_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 07:59:09 --> Undefined array key "status"
+in APPPATH\Views\admin\category.php on line 105.
+ 1 APPPATH\Views\admin\category.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Views\\admin\\category.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/category', [], true)
+ 5 APPPATH\Controllers\Admin_Category_Controller.php(15): view('admin/category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Category_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Category_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 07:59:09 --> Undefined array key "status"
+in APPPATH\Views\admin\category.php on line 105.
+ 1 APPPATH\Views\admin\category.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Views\\admin\\category.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/category', [], true)
+ 5 APPPATH\Controllers\Admin_Category_Controller.php(15): view('admin/category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Category_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Category_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 09:05:53 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin_Category_Controller.php(104): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Category_Controller->editCategory('5')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Category_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 09:08:30 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin_Category_Controller.php(104): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Category_Controller->editCategory('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Category_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 09:08:47 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin_Category_Controller.php(104): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Category_Controller->editCategory('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Category_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 09:09:30 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin_Category_Controller.php(104): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Category_Controller->editCategory('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Category_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 09:09:30 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin_Category_Controller.php(104): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Category_Controller->editCategory('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Category_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 09:12:12 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin_Category_Controller.php(104): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Category_Controller->editCategory('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Category_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 09:17:47 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin_Category_Controller.php(104): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Category_Controller->editCategory('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Category_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 09:20:03 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin_Category_Controller.php(104): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Category_Controller->editCategory('5')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Category_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 10:22:01 --> Object of class App\Models\Category_Model could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 9 APPPATH\Controllers\Admin_Sub_Category_Controller.php(109): CodeIgniter\Model->update()
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->editSubCategory('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 10:22:09 --> Object of class App\Models\Category_Model could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 9 APPPATH\Controllers\Admin_Sub_Category_Controller.php(109): CodeIgniter\Model->update()
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->editSubCategory('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 10:23:18 --> Object of class App\Models\Category_Model could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 9 APPPATH\Controllers\Admin_Sub_Category_Controller.php(109): CodeIgniter\Model->update()
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->editSubCategory('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 10:24:17 --> Object of class App\Models\Category_Model could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 9 APPPATH\Controllers\Admin_Sub_Category_Controller.php(109): CodeIgniter\Model->update()
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->editSubCategory('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 10:27:11 --> Object of class App\Models\Sub_Category_Model could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `sub_category` SET `sub_cat_title` = :sub_cat_title:, `status` = :status:, `cat_id` = :cat_id.1:
+WHERE `cat_id` = :cat_id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `sub_category` SET `sub_cat_title` = :sub_cat_title:, `status` = :status:, `cat_id` = :cat_id.1:
+WHERE `cat_id` = :cat_id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `sub_category` SET `sub_cat_title` = :sub_cat_title:, `status` = :status:, `cat_id` = :cat_id.1:
+WHERE `cat_id` = :cat_id:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 9 APPPATH\Controllers\Admin_Sub_Category_Controller.php(117): CodeIgniter\Model->update()
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->editSubCategory('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 10:27:18 --> Object of class App\Models\Sub_Category_Model could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `sub_category` SET `sub_cat_title` = :sub_cat_title:, `status` = :status:, `cat_id` = :cat_id.1:
+WHERE `cat_id` = :cat_id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `sub_category` SET `sub_cat_title` = :sub_cat_title:, `status` = :status:, `cat_id` = :cat_id.1:
+WHERE `cat_id` = :cat_id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `sub_category` SET `sub_cat_title` = :sub_cat_title:, `status` = :status:, `cat_id` = :cat_id.1:
+WHERE `cat_id` = :cat_id:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 9 APPPATH\Controllers\Admin_Sub_Category_Controller.php(117): CodeIgniter\Model->update()
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->editSubCategory('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 10:39:50 --> Object of class App\Models\Category_Model could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 9 APPPATH\Controllers\Admin_Sub_Category_Controller.php(109): CodeIgniter\Model->update()
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->editSubCategory('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 10:39:57 --> Object of class App\Models\Category_Model could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 9 APPPATH\Controllers\Admin_Sub_Category_Controller.php(109): CodeIgniter\Model->update()
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->editSubCategory('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 10:40:07 --> Object of class App\Models\Category_Model could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 9 APPPATH\Controllers\Admin_Sub_Category_Controller.php(109): CodeIgniter\Model->update()
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->editSubCategory('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 11:47:56 --> Undefined array key "sub_cat_title"
+in APPPATH\Views\admin\sub_category.php on line 242.
+ 1 APPPATH\Views\admin\sub_category.php(242): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_cat_title"', 'APPPATH\\Views\\admin\\sub_category.php', 242)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\sub_category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/sub_category', [], true)
+ 5 APPPATH\Controllers\Admin_Sub_Category_Controller.php(24): view('admin/sub_category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 11:47:56 --> Undefined array key "sub_cat_title"
+in APPPATH\Views\admin\sub_category.php on line 242.
+ 1 APPPATH\Views\admin\sub_category.php(242): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_cat_title"', 'APPPATH\\Views\\admin\\sub_category.php', 242)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\sub_category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/sub_category', [], true)
+ 5 APPPATH\Controllers\Admin_Sub_Category_Controller.php(24): view('admin/sub_category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 11:47:56 --> Undefined array key "sub_cat_title"
+in APPPATH\Views\admin\sub_category.php on line 242.
+ 1 APPPATH\Views\admin\sub_category.php(242): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_cat_title"', 'APPPATH\\Views\\admin\\sub_category.php', 242)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\sub_category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/sub_category', [], true)
+ 5 APPPATH\Controllers\Admin_Sub_Category_Controller.php(24): view('admin/sub_category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 11:50:29 --> Undefined variable $cat
+in APPPATH\Views\admin\sub_category.php on line 100.
+ 1 APPPATH\Views\admin\sub_category.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat', 'APPPATH\\Views\\admin\\sub_category.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\sub_category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/sub_category', [], true)
+ 5 APPPATH\Controllers\Admin_Sub_Category_Controller.php(24): view('admin/sub_category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 11:50:30 --> Undefined variable $cat
+in APPPATH\Views\admin\sub_category.php on line 100.
+ 1 APPPATH\Views\admin\sub_category.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat', 'APPPATH\\Views\\admin\\sub_category.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\sub_category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/sub_category', [], true)
+ 5 APPPATH\Controllers\Admin_Sub_Category_Controller.php(24): view('admin/sub_category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 11:50:30 --> Undefined variable $cat
+in APPPATH\Views\admin\sub_category.php on line 100.
+ 1 APPPATH\Views\admin\sub_category.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat', 'APPPATH\\Views\\admin\\sub_category.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\sub_category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/sub_category', [], true)
+ 5 APPPATH\Controllers\Admin_Sub_Category_Controller.php(24): view('admin/sub_category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 11:51:09 --> Undefined variable $cat
+in APPPATH\Views\admin\sub_category.php on line 100.
+ 1 APPPATH\Views\admin\sub_category.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat', 'APPPATH\\Views\\admin\\sub_category.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\sub_category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/sub_category', [], true)
+ 5 APPPATH\Controllers\Admin_Sub_Category_Controller.php(24): view('admin/sub_category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 11:51:09 --> Undefined variable $cat
+in APPPATH\Views\admin\sub_category.php on line 100.
+ 1 APPPATH\Views\admin\sub_category.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat', 'APPPATH\\Views\\admin\\sub_category.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\sub_category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/sub_category', [], true)
+ 5 APPPATH\Controllers\Admin_Sub_Category_Controller.php(24): view('admin/sub_category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 11:51:09 --> Undefined variable $cat
+in APPPATH\Views\admin\sub_category.php on line 100.
+ 1 APPPATH\Views\admin\sub_category.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat', 'APPPATH\\Views\\admin\\sub_category.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\sub_category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/sub_category', [], true)
+ 5 APPPATH\Controllers\Admin_Sub_Category_Controller.php(24): view('admin/sub_category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 11:51:46 --> Object of class App\Models\Category_Model could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 9 APPPATH\Controllers\Admin_Sub_Category_Controller.php(108): CodeIgniter\Model->update()
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->editSubCategory('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 11:51:59 --> Object of class App\Models\Category_Model could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 9 APPPATH\Controllers\Admin_Sub_Category_Controller.php(108): CodeIgniter\Model->update()
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->editSubCategory('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-03 11:56:49 --> mysqli_sql_exception: Column 'sub_cat_title' cannot be null in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `su...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Voting-System\app\Controllers\Admin_Sub_Category_Controller.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->addSubCategory()
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+#10 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-03 11:56:49 --> Column 'sub_cat_title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sub_category` (`sub_cat_title`, `status`, `cat_id`) VALUES (NULL, NULL, \'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sub_category` (`sub_cat_title`, `status`, `cat_id`) VALUES (NULL, NULL, \'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sub_category` (`sub_cat_title`, `status`, `cat_id`) VALUES (NULL, NULL, \'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sub_category` (`sub_cat_title`, `status`, `cat_id`) VALUES (:sub_cat_title:, :status:, :cat_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin_Sub_Category_Controller.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->addSubCategory()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 12:01:56 --> Object of class App\Models\Category_Model could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 9 APPPATH\Controllers\Admin_Sub_Category_Controller.php(106): CodeIgniter\Model->update()
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->editSubCategory('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 12:02:04 --> Object of class App\Models\Category_Model could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `category` SET `have_sub_cat` = :have_sub_cat:
+WHERE `cat_id` = :cat_id:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 9 APPPATH\Controllers\Admin_Sub_Category_Controller.php(106): CodeIgniter\Model->update()
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->editSubCategory('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 12:07:14 --> Object of class App\Models\Sub_Category_Model could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `sub_category` SET `sub_cat_title` = :sub_cat_title:, `status` = :status:, `cat_id` = :cat_id.1:
+WHERE `cat_id` = :cat_id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `sub_category` SET `sub_cat_title` = :sub_cat_title:, `status` = :status:, `cat_id` = :cat_id.1:
+WHERE `cat_id` = :cat_id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `sub_category` SET `sub_cat_title` = :sub_cat_title:, `status` = :status:, `cat_id` = :cat_id.1:
+WHERE `cat_id` = :cat_id:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 9 APPPATH\Controllers\Admin_Sub_Category_Controller.php(114): CodeIgniter\Model->update()
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->editSubCategory('7')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 12:07:20 --> Object of class App\Models\Sub_Category_Model could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `sub_category` SET `sub_cat_title` = :sub_cat_title:, `status` = :status:, `cat_id` = :cat_id.1:
+WHERE `cat_id` = :cat_id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `sub_category` SET `sub_cat_title` = :sub_cat_title:, `status` = :status:, `cat_id` = :cat_id.1:
+WHERE `cat_id` = :cat_id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `sub_category` SET `sub_cat_title` = :sub_cat_title:, `status` = :status:, `cat_id` = :cat_id.1:
+WHERE `cat_id` = :cat_id:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 9 APPPATH\Controllers\Admin_Sub_Category_Controller.php(114): CodeIgniter\Model->update()
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_Sub_Category_Controller->editSubCategory('7')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Sub_Category_Controller))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:09:29 --> syntax error, unexpected token ";"
+in APPPATH\Controllers\Website_Settings_Controller.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Website_Settings_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Website_Settings_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Website_Settings_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Website_Settings_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:47 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:47 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:50 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:50 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:53 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:53 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:55 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:55 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:55 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:27:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:27:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:27:55 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:27:55 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\website_logo_settings.php on line 90.
+ 1 APPPATH\Views\admin\website_logo_settings.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\website_logo_settings.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_logo_settings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_logo_settings', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(11): view('admin/website_logo_settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:33:57 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(42): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\logo', '1670103237_b263f9c1f3ce5dcdf4c3')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->logo_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:34:03 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(42): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\logo', '1670103243_521f612ac095dbaf4d59')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->logo_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:35:23 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(42): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\logo', '1670103323_9e42b44d648b6a8a4ea0')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->logo_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:41:32 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(54): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\logo', '1670103692_da787219e07bda9f1fb3')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->logo_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:42:10 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(54): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\logo', '1670103730_dc21cb8aae6825c78368')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->logo_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:47:12 --> syntax error, unexpected token ")"
+in APPPATH\Controllers\Website_Settings_Controller.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Website_Settings_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Website_Settings_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Website_Settings_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Website_Settings_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:47:13 --> syntax error, unexpected token ")"
+in APPPATH\Controllers\Website_Settings_Controller.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Website_Settings_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Website_Settings_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Website_Settings_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Website_Settings_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:47:31 --> syntax error, unexpected token ")"
+in APPPATH\Controllers\Website_Settings_Controller.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Website_Settings_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Website_Settings_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Website_Settings_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Website_Settings_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:47:32 --> syntax error, unexpected token ")"
+in APPPATH\Controllers\Website_Settings_Controller.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Website_Settings_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Website_Settings_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Website_Settings_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Website_Settings_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:47:53 --> syntax error, unexpected token ")"
+in APPPATH\Controllers\Website_Settings_Controller.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Website_Settings_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Website_Settings_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Website_Settings_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Website_Settings_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:47:54 --> syntax error, unexpected token ")"
+in APPPATH\Controllers\Website_Settings_Controller.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Website_Settings_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Website_Settings_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Website_Settings_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Website_Settings_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:47:56 --> syntax error, unexpected token ")"
+in APPPATH\Controllers\Website_Settings_Controller.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Website_Settings_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Website_Settings_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Website_Settings_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Website_Settings_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 17:51:33 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->add_aboutUs()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 17:51:40 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->add_aboutUs()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 17:53:05 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->add_aboutUs()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 17:53:15 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->add_aboutUs()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 17:55:05 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 121.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->add_aboutUs()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 17:55:11 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 121.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->add_aboutUs()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 17:55:17 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 121.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->add_aboutUs()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 17:56:32 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 121.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->add_aboutUs()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 17:56:39 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 121.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->add_aboutUs()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

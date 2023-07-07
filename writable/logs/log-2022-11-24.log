@@ -1,0 +1,913 @@
+CRITICAL - 2022-11-24 01:59:16 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 86.
+ 1 APPPATH\Controllers\Groups_Controller.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:01:16 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 86.
+ 1 APPPATH\Controllers\Groups_Controller.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:01:19 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 86.
+ 1 APPPATH\Controllers\Groups_Controller.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:01:21 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 86.
+ 1 APPPATH\Controllers\Groups_Controller.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:01:23 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 86.
+ 1 APPPATH\Controllers\Groups_Controller.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('4')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:01:25 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 86.
+ 1 APPPATH\Controllers\Groups_Controller.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('5')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:02:28 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 86.
+ 1 APPPATH\Controllers\Groups_Controller.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:02:49 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 86.
+ 1 APPPATH\Controllers\Groups_Controller.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:03:22 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 86.
+ 1 APPPATH\Controllers\Groups_Controller.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('5')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:03:33 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 86.
+ 1 APPPATH\Controllers\Groups_Controller.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('5')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:04:22 --> Undefined array key "userCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 86.
+ 1 APPPATH\Controllers\Groups_Controller.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('4')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:07:30 --> Undefined array key "reuqestCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 86.
+ 1 APPPATH\Controllers\Groups_Controller.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "reuqestCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:07:43 --> Undefined array key "requestCheck"
+in APPPATH\Controllers\Groups_Controller.php on line 86.
+ 1 APPPATH\Controllers\Groups_Controller.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "requestCheck"', 'APPPATH\\Controllers\\Groups_Controller.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-24 02:18:46 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Voting-System\app\Controllers\Groups_Controller.php(96): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+#10 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-24 02:18:46 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (:user_id:, :group_id:, :creator_id:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Groups_Controller.php(96): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:19:41 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `requests`
+WHERE `group_id` = :group_id:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(86): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Debug\Toolbar\Collectors\Database::collect(Object(CodeIgniter\Database\Query))
+ 7 SYSTEMPATH\Database\BaseConnection.php(622): CodeIgniter\Events\Events::trigger('DBQuery', Object(CodeIgniter\Database\Query))
+ 8 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `requests`
+WHERE `group_id` = :group_id:', [...], false)
+ 9 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+10 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+11 APPPATH\Controllers\Groups_Controller.php(79): CodeIgniter\BaseModel->findAll()
+12 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+13 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:19:45 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `requests`
+WHERE `group_id` = :group_id:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(86): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Debug\Toolbar\Collectors\Database::collect(Object(CodeIgniter\Database\Query))
+ 7 SYSTEMPATH\Database\BaseConnection.php(622): CodeIgniter\Events\Events::trigger('DBQuery', Object(CodeIgniter\Database\Query))
+ 8 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `requests`
+WHERE `group_id` = :group_id:', [...], false)
+ 9 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+10 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+11 APPPATH\Controllers\Groups_Controller.php(79): CodeIgniter\BaseModel->findAll()
+12 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('4')
+13 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-24 02:20:39 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Voting-System\app\Controllers\Groups_Controller.php(90): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+#10 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-24 02:20:39 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (:user_id:, :group_id:, :creator_id:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Groups_Controller.php(90): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-24 02:22:03 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Voting-System\app\Controllers\Groups_Controller.php(90): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+#10 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-24 02:22:03 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (:user_id:, :group_id:, :creator_id:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Groups_Controller.php(90): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-24 02:24:41 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Voting-System\app\Controllers\Groups_Controller.php(86): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+#10 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-24 02:24:41 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`) VALUES (NULL, \'1\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`) VALUES (NULL, \'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`) VALUES (NULL, \'1\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`) VALUES (:user_id:, :group_id:, :creator_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Groups_Controller.php(86): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-24 02:24:57 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Voting-System\app\Controllers\Groups_Controller.php(86): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+#10 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-24 02:24:57 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`) VALUES (NULL, \'1\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`) VALUES (NULL, \'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`) VALUES (NULL, \'1\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`) VALUES (:user_id:, :group_id:, :creator_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Groups_Controller.php(86): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-24 02:25:24 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Voting-System\app\Controllers\Groups_Controller.php(89): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+#10 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-24 02:25:24 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (:user_id:, :group_id:, :creator_id:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Groups_Controller.php(89): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-24 02:36:51 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Voting-System\app\Controllers\Groups_Controller.php(89): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+#10 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-24 02:36:51 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (:user_id:, :group_id:, :creator_id:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Groups_Controller.php(89): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-24 02:37:31 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Voting-System\app\Controllers\Groups_Controller.php(90): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+#10 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-24 02:37:31 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (:user_id:, :group_id:, :creator_id:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Groups_Controller.php(90): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-24 02:38:14 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Voting-System\app\Controllers\Groups_Controller.php(90): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+#10 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-24 02:38:14 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (NULL, \'1\', \'1\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `requests` (`user_id`, `group_id`, `creator_id`, `status`) VALUES (:user_id:, :group_id:, :creator_id:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Groups_Controller.php(90): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:54:24 --> Cannot use object of type App\Models\User_Model as array
+in APPPATH\Controllers\Groups_Controller.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:54:25 --> Cannot use object of type App\Models\User_Model as array
+in APPPATH\Controllers\Groups_Controller.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-24 03:01:00 --> mysqli_sql_exception: Column 'user_id' in where clause is ambiguous in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Voting-System\app\Controllers\Groups_Controller.php(64): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-24 03:01:00 --> Column 'user_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `requests`
+JOIN `groups` ON `groups`.`group_id`=`requests`.`group_id`
+JOIN `user` ON `user`.`user_id`=`requests`.`creator_id`
+WHERE `user_id` = \'user.user_id\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `requests`
+JOIN `groups` ON `groups`.`group_id`=`requests`.`group_id`
+JOIN `user` ON `user`.`user_id`=`requests`.`creator_id`
+WHERE `user_id` = \'user.user_id\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `requests`
+JOIN `groups` ON `groups`.`group_id`=`requests`.`group_id`
+JOIN `user` ON `user`.`user_id`=`requests`.`creator_id`
+WHERE `user_id` = \'user.user_id\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `requests`
+JOIN `groups` ON `groups`.`group_id`=`requests`.`group_id`
+JOIN `user` ON `user`.`user_id`=`requests`.`creator_id`
+WHERE `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Groups_Controller.php(64): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 03:01:26 --> Cannot use object of type App\Models\User_Model as array
+in APPPATH\Controllers\Groups_Controller.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 03:01:26 --> Cannot use object of type App\Models\User_Model as array
+in APPPATH\Controllers\Groups_Controller.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-24 03:01:48 --> mysqli_sql_exception: Column 'user_id' in where clause is ambiguous in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Voting-System\app\Controllers\Groups_Controller.php(64): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-24 03:01:48 --> Column 'user_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `requests`
+JOIN `groups` ON `groups`.`group_id`=`requests`.`group_id`
+JOIN `user` ON `user`.`user_id`=`requests`.`creator_id`
+WHERE `user_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `requests`
+JOIN `groups` ON `groups`.`group_id`=`requests`.`group_id`
+JOIN `user` ON `user`.`user_id`=`requests`.`creator_id`
+WHERE `user_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `requests`
+JOIN `groups` ON `groups`.`group_id`=`requests`.`group_id`
+JOIN `user` ON `user`.`user_id`=`requests`.`creator_id`
+WHERE `user_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `requests`
+JOIN `groups` ON `groups`.`group_id`=`requests`.`group_id`
+JOIN `user` ON `user`.`user_id`=`requests`.`creator_id`
+WHERE `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Groups_Controller.php(64): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests_index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 07:22:15 --> Cannot use object of type App\Models\Requests_Model as array
+in APPPATH\Controllers\Groups_Controller.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-24 07:26:04 --> mysqli_sql_exception: Column 'group_id' in where clause is ambiguous in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Voting-System\app\Controllers\Groups_Controller.php(80): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-24 07:26:04 --> Column 'group_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `requests`
+JOIN `groups` ON `requests`.`group_id`=`groups`.`group_id`
+WHERE `group_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `requests`
+JOIN `groups` ON `requests`.`group_id`=`groups`.`group_id`
+WHERE `group_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `requests`
+JOIN `groups` ON `requests`.`group_id`=`groups`.`group_id`
+WHERE `group_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `requests`
+JOIN `groups` ON `requests`.`group_id`=`groups`.`group_id`
+WHERE `group_id` = :group_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Groups_Controller.php(80): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 07:28:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Groups_Controller.php on line 91.
+ 1 APPPATH\Controllers\Groups_Controller.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Groups_Controller.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 07:28:54 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Groups_Controller.php on line 91.
+ 1 APPPATH\Controllers\Groups_Controller.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Groups_Controller.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 07:29:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Groups_Controller.php on line 91.
+ 1 APPPATH\Controllers\Groups_Controller.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Groups_Controller.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 07:29:29 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Groups_Controller.php on line 91.
+ 1 APPPATH\Controllers\Groups_Controller.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Groups_Controller.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 07:33:11 --> Undefined array key "status"
+in APPPATH\Controllers\Groups_Controller.php on line 91.
+ 1 APPPATH\Controllers\Groups_Controller.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Controllers\\Groups_Controller.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 07:41:27 --> Undefined variable $checkRequest
+in APPPATH\Controllers\Groups_Controller.php on line 82.
+ 1 APPPATH\Controllers\Groups_Controller.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkRequest', 'APPPATH\\Controllers\\Groups_Controller.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 07:43:51 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 82.
+ 1 APPPATH\Controllers\Groups_Controller.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 07:56:19 --> Undefined array key "user_id"
+in APPPATH\Controllers\Groups_Controller.php on line 83.
+ 1 APPPATH\Controllers\Groups_Controller.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\Groups_Controller.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 08:02:18 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 08:02:31 --> Undefined array key 0
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 08:03:40 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 08:05:09 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 08:06:58 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 08:07:34 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 08:07:45 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 08:11:24 --> Undefined array key "staus"
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staus"', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 08:11:52 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 08:12:04 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 08:12:32 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 08:12:43 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 08:14:10 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:21:27 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:22:05 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:24:38 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('4')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:27:48 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:27:52 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:28:20 --> Undefined array key 0
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:28:25 --> Undefined array key 0
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('4')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:28:37 --> Undefined array key 0
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('4')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:29:59 --> Undefined array key 0
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:30:09 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:30:13 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:37:52 --> Undefined variable $checkUser
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:49:24 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:49:36 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:49:40 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:49:50 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:49:54 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('4')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:51:43 --> Undefined array key "status"
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:51:59 --> Undefined array key "status"
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('4')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:52:02 --> Undefined array key "status"
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:52:55 --> Undefined array key "status"
+in APPPATH\Controllers\Groups_Controller.php on line 84.
+ 1 APPPATH\Controllers\Groups_Controller.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Controllers\\Groups_Controller.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:54:09 --> Undefined array key 0
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:54:13 --> Undefined array key 0
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:54:18 --> Undefined array key 0
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:58:07 --> Undefined array key 0
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:58:12 --> Undefined array key 0
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:58:32 --> Undefined array key 0
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 09:58:56 --> Undefined array key 0
+in APPPATH\Controllers\Groups_Controller.php on line 94.
+ 1 APPPATH\Controllers\Groups_Controller.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Groups_Controller.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 10:12:58 --> Undefined array key "checkUser"
+in APPPATH\Controllers\Groups_Controller.php on line 83.
+ 1 APPPATH\Controllers\Groups_Controller.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "checkUser"', 'APPPATH\\Controllers\\Groups_Controller.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 10:17:30 --> Undefined array key 0
+in APPPATH\Controllers\Groups_Controller.php on line 83.
+ 1 APPPATH\Controllers\Groups_Controller.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Groups_Controller.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 10:42:18 --> Undefined array key 0
+in APPPATH\Controllers\Groups_Controller.php on line 83.
+ 1 APPPATH\Controllers\Groups_Controller.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Groups_Controller.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->requests('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

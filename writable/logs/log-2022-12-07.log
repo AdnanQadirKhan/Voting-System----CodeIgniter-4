@@ -1,0 +1,974 @@
+ERROR - 2022-12-07 02:55:45 --> mysqli_sql_exception: Column 'user_id' in field list is ambiguous in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_id...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_id...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Voting-System\app\Controllers\Groups_Controller.php(156): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Groups_Controller->rooms()
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-07 02:55:45 --> Column 'user_id' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_id`
+FROM `groups`
+LEFT JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id`
+FROM `groups`
+LEFT JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id`
+FROM `groups`
+LEFT JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_id`
+FROM `groups`
+LEFT JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Groups_Controller.php(156): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->rooms()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 02:56:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`' at line 3 in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Voting-System\app\Controllers\Groups_Controller.php(156): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Groups_Controller->rooms()
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-07 02:56:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`
+OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`
+OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`
+OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`
+OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Groups_Controller.php(156): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->rooms()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 09:27:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`' at line 3 in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Voting-System\app\Controllers\Groups_Controller.php(156): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Groups_Controller->rooms()
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+#9 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-07 09:27:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `groups`
+OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `groups`
+OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `groups`
+OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`
+OUTER JOIN `requests` ON `requests`.`group_id`=`groups`.`group_id`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Groups_Controller.php(156): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->rooms()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 09:36:32 --> Cannot use object of type App\Models\Groups_Model as array
+in APPPATH\Controllers\Groups_Controller.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->add_group()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 09:36:42 --> Cannot use object of type App\Models\Groups_Model as array
+in APPPATH\Controllers\Groups_Controller.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->add_group()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 09:37:24 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\Groups_Controller.php on line 55.
+ 1 APPPATH\Controllers\Groups_Controller.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Controllers\\Groups_Controller.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Groups_Controller->add_group()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 10:51:33 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Email\Email.php:1730
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1730)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Email\Email.php(1730): mail('adnan.qadir.792...', '=?UTF-8?Q?Accou...', 'This is a multi...', 'Date: Wed, 7 De...', '-f tenantmanage...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Email\Email.php(1662): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Email\Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(118): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->registrationUser()
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-07 10:51:33 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2022-12-07 10:51:33 --> 
+ERROR - 2022-12-07 10:53:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-12-07 10:53:59 --> 220 DX0P273CA0013.outlook.office365.com Microsoft ESMTP MAIL Service ready at Wed, 7 Dec 2022 16:53:51 +0000
+
+hello: 250-DX0P273CA0013.outlook.office365.com Hello [203.175.69.151]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-STARTTLS
+250-8BITMIME
+250-BINARYMIME
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 SMTP server ready
+
+hello: 250-DX0P273CA0013.outlook.office365.com Hello [203.175.69.151]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-AUTH LOGIN XOAUTH2
+250-8BITMIME
+250-BINARYMIME
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 Sender OK
+
+to: 250 2.1.5 Recipient OK
+
+data: 354 Start mail input; end with <CRLF>.<CRLF>
+
+554 5.2.252 SendAsDenied; adnanqadirkhan@outlook.com not allowed to send as tenantmanagementsystem@outlook.com; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Cannot submit message. 0.35250:40000830, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:F5030000, 1.36674:0E000000, 1.61250:00000000, 1.45378:FA030000, 1.44866:58010000, 16.55847:ED030000, 17.43559:000000002402000000
+quit: 0000000000000000000000, 20.52176:140FF8960E004010F1030000, 20.50032:140FF8967E174010F1030000, 0.53414:00000000, 0.35180:00000000, 255.23226:F1030000, 255.27962:0A000000, 255.27962:0E000000, 255.31418:00000000, 0.35250:02000000, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:40000000, 1.36674:32000000, 1.61250:00000000, 1.45378:45000000, 1.44866:01000000, 16.55847:BB000000, 17.43559:00000000D0030000000000000F00000000000000, 20.52176:140FF8960E00001080030400, 20.50032:140FF8967E17F01F0A000910, 0.53414:0A000000, 0.35180:65020000, 255.23226:0A001F0E, 255.27962:0A000000, 255.27962:32000000, 255.17082:DC040000, 0.27745:92000000, 4.21921:DC040000, 255.27962:FA000000, 255.1494:02000000, 0.38698:05000780, 1.41134:46000000, 0.37692:86000000, 0.37948:86000000, 5.33852:00000000534D545000010480, 7.36354:01000000000001095A000100, 4.56248:DC040000, 7.40748:010000000000010BF72F2E00, 7.57132:000000000000000087EE1900, 4.39640:DC040000, 1.63016:32000000, 8.45434:FE7F030085501786000000000000000086000000, 1.46798:04000000, 5.10786:0000000031352E32302E353838302E3031343A414D38505230394D42353239323A31346165323664372D363363622D343966652D613132612D3063373137353733616361643A3131323836383A2E4E4554204672616D65776F726B20342E382E393033322E30004635000000, 7.51330:2C367EA273D8DA0833424432, 0.39570:31000000, 1.55954:0A000000, 0.49266:56000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.64146:32000000, 1.33010:32000000, 2.54258:DC040000, 1.33010:32000000, 2.54258:DC040000, 255.1750:C9020000, 255.31418:0A00BA80, 0.22753:F1000000, 255.21817:DC040000, 0.64418:0A008440, 4.39842:DC040000, 0.41586:D3020000, 4.60547:DC040000, 0.21966:FB000000, 4.30158:DC040000[EndDiagnosticData] [Hostname=AM8PR09MB5292.eurprd09.prod.outlook.com]
+221 2.0.0 Service closing transmission channel
+
+The following SMTP error was encountered: 0000000000000000000000, 20.52176:140FF8960E004010F1030000, 20.50032:140FF8967E174010F1030000, 0.53414:00000000, 0.35180:00000000, 255.23226:F1030000, 255.27962:0A000000, 255.27962:0E000000, 255.31418:00000000, 0.35250:02000000, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:40000000, 1.36674:32000000, 1.61250:00000000, 1.45378:45000000, 1.44866:01000000, 16.55847:BB000000, 17.43559:00000000D0030000000000000F00000000000000, 20.52176:140FF8960E00001080030400, 20.50032:140FF8967E17F01F0A000910, 0.53414:0A000000, 0.35180:65020000, 255.23226:0A001F0E, 255.27962:0A000000, 255.27962:32000000, 255.17082:DC040000, 0.27745:92000000, 4.21921:DC040000, 255.27962:FA000000, 255.1494:02000000, 0.38698:05000780, 1.41134:46000000, 0.37692:86000000, 0.37948:86000000, 5.33852:00000000534D545000010480, 7.36354:01000000000001095A000100, 4.56248:DC040000, 7.40748:010000000000010BF72F2E00, 7.57132:000000000000000087EE1900, 4.39640:DC040000, 1.63016:32000000, 8.45434:FE7F030085501786000000000000000086000000, 1.46798:04000000, 5.10786:0000000031352E32302E353838302E3031343A414D38505230394D42353239323A31346165323664372D363363622D343966652D613132612D3063373137353733616361643A3131323836383A2E4E4554204672616D65776F726B20342E382E393033322E30004635000000, 7.51330:2C367EA273D8DA0833424432, 0.39570:31000000, 1.55954:0A000000, 0.49266:56000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.64146:32000000, 1.33010:32000000, 2.54258:DC040000, 1.33010:32000000, 2.54258:DC040000, 255.1750:C9020000, 255.31418:0A00BA80, 0.22753:F1000000, 255.21817:DC040000, 0.64418:0A008440, 4.39842:DC040000, 0.41586:D3020000, 4.60547:DC040000, 0.21966:FB000000, 4.30158:DC040000[EndDiagnosticData] [Hostname=AM8PR09MB5292.eurprd09.prod.outlook.com]
+221 2.0.0 Service closing transmission channel
+
+The following SMTP error was encountered: 554 5.2.252 SendAsDenied; adnanqadirkhan@outlook.com not allowed to send as tenantmanagementsystem@outlook.com; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Cannot submit message. 0.35250:40000830, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:F5030000, 1.36674:0E000000, 1.61250:00000000, 1.45378:FA030000, 1.44866:58010000, 16.55847:ED030000, 17.43559:000000002402000000
+ERROR - 2022-12-07 10:58:58 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('f57a373c125f890...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('f57a373c125f890...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 10:58:58 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'f57a373c125f8905555d8b6d1df2c5b6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'f57a373c125f8905555d8b6d1df2c5b6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'f57a373c125f8905555d8b6d1df2c5b6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('f57a373c125f8905555d8b6d1df2c5b6')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('f57a373c125f8905555d8b6d1df2c5b6')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 10:59:56 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('f57a373c125f890...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('f57a373c125f890...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 10:59:56 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'f57a373c125f8905555d8b6d1df2c5b6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'f57a373c125f8905555d8b6d1df2c5b6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'f57a373c125f8905555d8b6d1df2c5b6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('f57a373c125f8905555d8b6d1df2c5b6')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('f57a373c125f8905555d8b6d1df2c5b6')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:07:04 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('f57a373c125f890...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('f57a373c125f890...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:07:04 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'f57a373c125f8905555d8b6d1df2c5b6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'f57a373c125f8905555d8b6d1df2c5b6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'f57a373c125f8905555d8b6d1df2c5b6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('f57a373c125f8905555d8b6d1df2c5b6')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('f57a373c125f8905555d8b6d1df2c5b6')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:08:52 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('f57a373c125f890...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('f57a373c125f890...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:08:52 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'f57a373c125f8905555d8b6d1df2c5b6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'f57a373c125f8905555d8b6d1df2c5b6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'f57a373c125f8905555d8b6d1df2c5b6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('f57a373c125f8905555d8b6d1df2c5b6')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('f57a373c125f8905555d8b6d1df2c5b6')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:09:18 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('4ea658ecdde78ed...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('4ea658ecdde78ed...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:09:18 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('4ea658ecdde78edad4c28fa48ccfdcb6')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('4ea658ecdde78edad4c28fa48ccfdcb6')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:14:19 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('4ea658ecdde78ed...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('4ea658ecdde78ed...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:14:19 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('4ea658ecdde78edad4c28fa48ccfdcb6')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('4ea658ecdde78edad4c28fa48ccfdcb6')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:15:02 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('4ea658ecdde78ed...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('4ea658ecdde78ed...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:15:02 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('4ea658ecdde78edad4c28fa48ccfdcb6')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('4ea658ecdde78edad4c28fa48ccfdcb6')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:15:15 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('4ea658ecdde78ed...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('4ea658ecdde78ed...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:15:15 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('4ea658ecdde78edad4c28fa48ccfdcb6')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('4ea658ecdde78edad4c28fa48ccfdcb6')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:15:58 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('4ea658ecdde78ed...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('4ea658ecdde78ed...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:15:58 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('4ea658ecdde78edad4c28fa48ccfdcb6')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('4ea658ecdde78edad4c28fa48ccfdcb6')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:16:06 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('4ea658ecdde78ed...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('4ea658ecdde78ed...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:16:06 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'4ea658ecdde78edad4c28fa48ccfdcb6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('4ea658ecdde78edad4c28fa48ccfdcb6')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('4ea658ecdde78edad4c28fa48ccfdcb6')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:19:20 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc8...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc8...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:19:20 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc80342e9aaab3e27585')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc80342e9aaab3e27585')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:22:39 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc8...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc8...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:22:39 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc80342e9aaab3e27585')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc80342e9aaab3e27585')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:26:55 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc8...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc8...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:26:55 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc80342e9aaab3e27585')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc80342e9aaab3e27585')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:27:01 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc8...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc8...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:27:01 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc80342e9aaab3e27585')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc80342e9aaab3e27585')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:31:29 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc8...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc8...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:31:29 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc80342e9aaab3e27585')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc80342e9aaab3e27585')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:35:51 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc8...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc8...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:35:51 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc80342e9aaab3e27585')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc80342e9aaab3e27585')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:38:06 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc8...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc8...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:38:06 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc80342e9aaab3e27585')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc80342e9aaab3e27585')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:38:31 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc8...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc8...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:38:31 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc80342e9aaab3e27585')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc80342e9aaab3e27585')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:38:42 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc8...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc8...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:38:42 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'53c2cea78f90bc80342e9aaab3e27585\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('53c2cea78f90bc80342e9aaab3e27585')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('53c2cea78f90bc80342e9aaab3e27585')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 11:44:31 --> mysqli_sql_exception: Table 'voting.code' doesn't exist in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activat...', 0)
+#1 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activat...')
+#2 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activat...')
+#3 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activat...', Array, false)
+#4 C:\xampp\htdocs\Voting-System\app\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Voting-System\app\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('cad08fa6266bc21...')
+#6 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('cad08fa6266bc21...')
+#7 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+#8 C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Voting-System\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-07 11:44:31 --> Table 'voting.code' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'cad08fa6266bc21ad069bedbb9090f17\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'cad08fa6266bc21ad069bedbb9090f17\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = \'cad08fa6266bc21ad069bedbb9090f17\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `activation_date`, `code`, `status`
+FROM `code`
+WHERE `code` = :code:', [...], false)
+ 5 APPPATH\Models\User_Model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registration_Controller.php(135): App\Models\User_Model->verifyUniid('cad08fa6266bc21ad069bedbb9090f17')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Registration_Controller->activate('cad08fa6266bc21ad069bedbb9090f17')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 12:09:26 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\Login_Controller.php on line 114.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Login_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Login_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 12:09:30 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\Login_Controller.php on line 114.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Login_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Login_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 12:09:42 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\Login_Controller.php on line 114.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Login_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Login_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 12:41:45 --> Undefined variable $logo
+in APPPATH\Views\includes\header.php on line 8.
+ 1 APPPATH\Views\includes\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $logo', 'APPPATH\\Views\\includes\\header.php', 8)
+ 2 APPPATH\Views\reset_password.php(6): include('APPPATH\\Views\\includes\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reset_password.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('reset_password', [], true)
+ 6 APPPATH\Controllers\Login_Controller.php(146): view('reset_password', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login_Controller->reset_password()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 12:41:45 --> Undefined variable $logo
+in APPPATH\Views\includes\header.php on line 8.
+ 1 APPPATH\Views\includes\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $logo', 'APPPATH\\Views\\includes\\header.php', 8)
+ 2 APPPATH\Views\reset_password.php(6): include('APPPATH\\Views\\includes\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reset_password.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('reset_password', [], true)
+ 6 APPPATH\Controllers\Login_Controller.php(146): view('reset_password', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login_Controller->reset_password()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 12:41:45 --> Undefined variable $logo
+in APPPATH\Views\includes\header.php on line 8.
+ 1 APPPATH\Views\includes\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $logo', 'APPPATH\\Views\\includes\\header.php', 8)
+ 2 APPPATH\Views\reset_password.php(6): include('APPPATH\\Views\\includes\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reset_password.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('reset_password', [], true)
+ 6 APPPATH\Controllers\Login_Controller.php(146): view('reset_password', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login_Controller->reset_password()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 12:42:17 --> Undefined variable $logo
+in APPPATH\Views\includes\header.php on line 8.
+ 1 APPPATH\Views\includes\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $logo', 'APPPATH\\Views\\includes\\header.php', 8)
+ 2 APPPATH\Views\reset_password.php(6): include('APPPATH\\Views\\includes\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reset_password.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('reset_password', [], true)
+ 6 APPPATH\Controllers\Login_Controller.php(146): view('reset_password', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login_Controller->reset_password()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 12:42:31 --> Undefined variable $logo
+in APPPATH\Views\includes\header.php on line 8.
+ 1 APPPATH\Views\includes\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $logo', 'APPPATH\\Views\\includes\\header.php', 8)
+ 2 APPPATH\Views\reset_password.php(6): include('APPPATH\\Views\\includes\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reset_password.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('reset_password', [], true)
+ 6 APPPATH\Controllers\Login_Controller.php(146): view('reset_password', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login_Controller->reset_password()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 12:42:33 --> Undefined variable $logo
+in APPPATH\Views\includes\header.php on line 8.
+ 1 APPPATH\Views\includes\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $logo', 'APPPATH\\Views\\includes\\header.php', 8)
+ 2 APPPATH\Views\reset_password.php(6): include('APPPATH\\Views\\includes\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reset_password.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('reset_password', [], true)
+ 6 APPPATH\Controllers\Login_Controller.php(146): view('reset_password', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login_Controller->reset_password()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 12:43:45 --> Undefined variable $categories
+in APPPATH\Views\includes\sidebar.php on line 17.
+ 1 APPPATH\Views\includes\sidebar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'APPPATH\\Views\\includes\\sidebar.php', 17)
+ 2 APPPATH\Views\reset_password.php(8): include('APPPATH\\Views\\includes\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reset_password.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('reset_password', [], true)
+ 6 APPPATH\Controllers\Login_Controller.php(149): view('reset_password', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login_Controller->reset_password()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 12:43:47 --> Undefined variable $categories
+in APPPATH\Views\includes\sidebar.php on line 17.
+ 1 APPPATH\Views\includes\sidebar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'APPPATH\\Views\\includes\\sidebar.php', 17)
+ 2 APPPATH\Views\reset_password.php(8): include('APPPATH\\Views\\includes\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reset_password.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('reset_password', [], true)
+ 6 APPPATH\Controllers\Login_Controller.php(149): view('reset_password', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login_Controller->reset_password()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 12:43:47 --> Undefined variable $categories
+in APPPATH\Views\includes\sidebar.php on line 17.
+ 1 APPPATH\Views\includes\sidebar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'APPPATH\\Views\\includes\\sidebar.php', 17)
+ 2 APPPATH\Views\reset_password.php(8): include('APPPATH\\Views\\includes\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reset_password.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('reset_password', [], true)
+ 6 APPPATH\Controllers\Login_Controller.php(149): view('reset_password', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login_Controller->reset_password()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

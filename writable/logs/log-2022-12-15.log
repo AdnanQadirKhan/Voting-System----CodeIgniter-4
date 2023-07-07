@@ -1,0 +1,69 @@
+CRITICAL - 2022-12-15 16:05:00 --> Undefined property: App\Controllers\User_Dashboard::$respondCreated
+in APPPATH\Controllers\User_Dashboard.php on line 54.
+ 1 APPPATH\Controllers\User_Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User_Dashboard::$respondCreated', 'APPPATH\\Controllers\\User_Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User_Dashboard->get_notification()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 16:05:00 --> Undefined property: App\Controllers\User_Dashboard::$respondCreated
+in APPPATH\Controllers\User_Dashboard.php on line 54.
+ 1 APPPATH\Controllers\User_Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User_Dashboard::$respondCreated', 'APPPATH\\Controllers\\User_Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User_Dashboard->get_notification()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 16:05:05 --> Undefined property: App\Controllers\User_Dashboard::$respondCreated
+in APPPATH\Controllers\User_Dashboard.php on line 54.
+ 1 APPPATH\Controllers\User_Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User_Dashboard::$respondCreated', 'APPPATH\\Controllers\\User_Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User_Dashboard->get_notification()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 16:05:10 --> Undefined property: App\Controllers\User_Dashboard::$respondCreated
+in APPPATH\Controllers\User_Dashboard.php on line 54.
+ 1 APPPATH\Controllers\User_Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User_Dashboard::$respondCreated', 'APPPATH\\Controllers\\User_Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User_Dashboard->get_notification()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 16:05:15 --> Undefined property: App\Controllers\User_Dashboard::$respondCreated
+in APPPATH\Controllers\User_Dashboard.php on line 54.
+ 1 APPPATH\Controllers\User_Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User_Dashboard::$respondCreated', 'APPPATH\\Controllers\\User_Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User_Dashboard->get_notification()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 16:05:20 --> Undefined property: App\Controllers\User_Dashboard::$respondCreated
+in APPPATH\Controllers\User_Dashboard.php on line 54.
+ 1 APPPATH\Controllers\User_Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User_Dashboard::$respondCreated', 'APPPATH\\Controllers\\User_Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User_Dashboard->get_notification()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 16:05:25 --> Undefined property: App\Controllers\User_Dashboard::$respondCreated
+in APPPATH\Controllers\User_Dashboard.php on line 54.
+ 1 APPPATH\Controllers\User_Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User_Dashboard::$respondCreated', 'APPPATH\\Controllers\\User_Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User_Dashboard->get_notification()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 16:05:30 --> Undefined property: App\Controllers\User_Dashboard::$respondCreated
+in APPPATH\Controllers\User_Dashboard.php on line 54.
+ 1 APPPATH\Controllers\User_Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User_Dashboard::$respondCreated', 'APPPATH\\Controllers\\User_Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User_Dashboard->get_notification()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 16:05:35 --> Undefined property: App\Controllers\User_Dashboard::$respondCreated
+in APPPATH\Controllers\User_Dashboard.php on line 54.
+ 1 APPPATH\Controllers\User_Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User_Dashboard::$respondCreated', 'APPPATH\\Controllers\\User_Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User_Dashboard->get_notification()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 16:05:40 --> Call to undefined method App\Controllers\User_Dashboard::json_encode()
+in APPPATH\Controllers\User_Dashboard.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User_Dashboard->get_notification()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

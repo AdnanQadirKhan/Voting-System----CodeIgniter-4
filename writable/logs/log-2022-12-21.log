@@ -1,0 +1,42 @@
+CRITICAL - 2022-12-21 10:54:07 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 425.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 10:54:29 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 425.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 10:57:14 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 425.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 10:59:37 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 425.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 10:59:44 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 425.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 10:59:51 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 435.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 11:00:13 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 435.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

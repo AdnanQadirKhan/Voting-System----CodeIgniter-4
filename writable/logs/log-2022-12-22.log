@@ -1,0 +1,1077 @@
+CRITICAL - 2022-12-22 00:44:30 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 425.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:44:42 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 425.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:47:37 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 425.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:47:43 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 435.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:47:51 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 435.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:47:58 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 435.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:48:10 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 435.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:48:17 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 435.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:48:23 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 435.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:48:32 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 425.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:49:44 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 425.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:49:49 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 425.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:49:54 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 435.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:51:03 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Website_Settings_Controller.php on line 425.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:51:30 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(438): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671691890_39c01642849584633e06')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:51:53 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(438): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671691913_a602f6c78d235026520b')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:51:58 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(440): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671691918_f420513650961fad3e11')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:52:48 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(438): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671691968_92e0c16de819ecfe0670')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:53:06 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(438): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671691986_06a91d9603a54bdc51cb')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:53:20 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(438): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671692000_d5a03fb5f4f3729508cb')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:53:34 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(439): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671692014_776b07d0783722467faf')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:54:35 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(438): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671692075_101f8b9628711c35b6bf')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:54:40 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(438): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671692080_07cb8cbca12eb44754cf')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:55:14 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(439): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671692114_0bdc5b80f917d399c235')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:55:32 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(438): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671692132_ac5f628c2abe5813ecc3')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:56:01 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(439): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671692161_cadd11d8db8f5694329e')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:58:23 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(440): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671692303_cd1520176a66300e8e74')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:58:40 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(438): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671692320_04bc80cfa7d6f881c670')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:58:45 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(438): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671692325_54fef3d4e8f742d94123')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:59:21 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(438): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671692361_c49778efd5f311ccde59')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 00:59:30 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(438): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671692370_e909cc81996e34920d7b')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:13:31 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(435): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671693211_e39816c240d797bd35a0')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:14:19 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(435): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671693259_531c86fa0d7bb55d8ead')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:14:37 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(435): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671693277_062c1b6eab7b50c68767')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:15:18 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(435): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671693318_d466e67172b49667cbde')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:15:40 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(435): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671693340_53934efbeceda3b7516e')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:15:51 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(435): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671693351_fa4403307fce4e649d30')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:16:33 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(435): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671693393_ac6bd609dbbf6ada9402')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:17:43 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(435): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671693463_7aa3b091409ed177e4ab')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:24:00 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(435): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671693840_5b34d9f38c6cfef789e0')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:24:16 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(435): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671693856_a53b29b700341142809d')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:24:44 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(435): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671693884_62bc001ed64f4e956d58')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:29:43 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(474): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671694183_ffe815be572e133cc7c6')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:45:26 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(483): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671695126_5eb5af90cfbc7ab908c3.png')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:45:35 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(483): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671695135_67fa7e74084dc5697735.png')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:50:34 --> CodeIgniter\Validation\Validation::setRules(): Argument #1 ($rules) must be of type array, bool given, called in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Controller.php on line 184
+in SYSTEMPATH\Validation\Validation.php on line 463.
+ 1 SYSTEMPATH\Controller.php(184): CodeIgniter\Validation\Validation->setRules(true, [])
+ 2 SYSTEMPATH\Controller.php(138): CodeIgniter\Controller->setValidator(true, [])
+ 3 APPPATH\Controllers\Website_Settings_Controller.php(425): CodeIgniter\Controller->validate(true)
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:50:47 --> CodeIgniter\Validation\Validation::setRules(): Argument #1 ($rules) must be of type array, bool given, called in C:\xampp\htdocs\Voting-System\vendor\codeigniter4\framework\system\Controller.php on line 184
+in SYSTEMPATH\Validation\Validation.php on line 463.
+ 1 SYSTEMPATH\Controller.php(184): CodeIgniter\Validation\Validation->setRules(true, [])
+ 2 SYSTEMPATH\Controller.php(138): CodeIgniter\Controller->setValidator(true, [])
+ 3 APPPATH\Controllers\Website_Settings_Controller.php(425): CodeIgniter\Controller->validate(true)
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:17:12 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(105): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:17:12 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(105): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:17:13 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(105): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:18:24 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(105): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:18:24 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(105): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:18:24 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(105): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:18:25 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(105): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:18:25 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(105): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:18:25 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(105): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:20:38 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(106): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:20:39 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(106): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:20:39 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(106): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:20:39 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(106): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:20:40 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(106): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:20:40 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(106): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:20:40 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(106): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:20:40 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(106): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:20:41 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(106): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:20:45 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(106): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:20:45 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(106): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:20:45 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(106): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:54 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\contact.php(106): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 6 APPPATH\Controllers\Home.php(148): view('contact', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:56 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\contact.php(106): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 6 APPPATH\Controllers\Home.php(148): view('contact', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:56 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\contact.php(106): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 6 APPPATH\Controllers\Home.php(148): view('contact', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:23:17 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\contact.php(106): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 6 APPPATH\Controllers\Home.php(148): view('contact', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:23:17 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\contact.php(106): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 6 APPPATH\Controllers\Home.php(148): view('contact', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:23:17 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\contact.php(106): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 6 APPPATH\Controllers\Home.php(148): view('contact', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:23:18 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\contact.php(106): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 6 APPPATH\Controllers\Home.php(148): view('contact', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:23:18 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\contact.php(106): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 6 APPPATH\Controllers\Home.php(148): view('contact', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:23:19 --> Undefined variable $breadcrumb
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\contact.php(106): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 6 APPPATH\Controllers\Home.php(148): view('contact', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:23:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:23:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:23:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:24:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:24:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:24:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:24:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:24:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:24:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\includes\footer1.php on line 91.
+ 1 APPPATH\Views\includes\footer1.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\includes\\footer1.php', 91)
+ 2 APPPATH\Views\about_us.php(108): include('APPPATH\\Views\\includes\\footer1.php')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about_us.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('about_us', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about_us()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:40:45 --> unlink(./public/uploads/footer/footer.jpg): Resource temporarily unavailable
+in APPPATH\Controllers\Website_Settings_Controller.php on line 527.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./public/uploads/footer/footer.jpg): Resource temporarily unavailable', 'APPPATH\\Controllers\\Website_Settings_Controller.php', 527)
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(527): unlink('FCPATH\\public\\uploads\\footer\\footer.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:41:01 --> unlink(./public/uploads/footer/footer.jpg): Resource temporarily unavailable
+in APPPATH\Controllers\Website_Settings_Controller.php on line 527.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./public/uploads/footer/footer.jpg): Resource temporarily unavailable', 'APPPATH\\Controllers\\Website_Settings_Controller.php', 527)
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(527): unlink('FCPATH\\public\\uploads\\footer\\footer.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 03:12:25 --> Undefined variable $old_pic
+in APPPATH\Controllers\Website_Settings_Controller.php on line 435.
+ 1 APPPATH\Controllers\Website_Settings_Controller.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $old_pic', 'APPPATH\\Controllers\\Website_Settings_Controller.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 03:12:52 --> Undefined variable $old_pic
+in APPPATH\Controllers\Website_Settings_Controller.php on line 435.
+ 1 APPPATH\Controllers\Website_Settings_Controller.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $old_pic', 'APPPATH\\Controllers\\Website_Settings_Controller.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 03:13:15 --> Undefined variable $old_pic
+in APPPATH\Controllers\Website_Settings_Controller.php on line 435.
+ 1 APPPATH\Controllers\Website_Settings_Controller.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $old_pic', 'APPPATH\\Controllers\\Website_Settings_Controller.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 03:17:12 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(500): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671700632_a1e5005d25e17908dc07.png')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 03:17:23 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(500): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671700643_c5f026bd5c84dc207bb6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 03:19:30 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(500): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671700770_6c3a6605de7b5dc7fc83.png')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 03:21:59 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(500): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671700919_12687cc52c5147e13f5a.png')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 03:37:33 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(500): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671701853_16572eae32abfac84890.png')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 03:37:42 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(500): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671701862_6285595577d30ec749c2.png')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 03:43:07 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Website_Settings_Controller.php(500): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\public\\uploads\\banners', '1671702187_b4b0f06c5f93e1278699.png')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->breadcrumb_update()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 03:50:51 --> Undefined array key "login_Image"
+in APPPATH\Views\admin\website_breadcrumb.php on line 52.
+ 1 APPPATH\Views\admin\website_breadcrumb.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "login_Image"', 'APPPATH\\Views\\admin\\website_breadcrumb.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_breadcrumb.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_breadcrumb', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(36): view('admin/website_breadcrumb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index_breadcrumb()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 03:50:51 --> Undefined array key "login_Image"
+in APPPATH\Views\admin\website_breadcrumb.php on line 52.
+ 1 APPPATH\Views\admin\website_breadcrumb.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "login_Image"', 'APPPATH\\Views\\admin\\website_breadcrumb.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\website_breadcrumb.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/website_breadcrumb', [], true)
+ 5 APPPATH\Controllers\Website_Settings_Controller.php(36): view('admin/website_breadcrumb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Website_Settings_Controller->index_breadcrumb()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_Settings_Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
